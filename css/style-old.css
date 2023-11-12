@@ -163,6 +163,8 @@
 .hero-section-button:focus {
     background-color: #404BBF;
 }
+
+/* our strategy */
 .our-strategy-list >.icon {
     display: flex;
     justify-content: center;
@@ -175,7 +177,7 @@
     margin-bottom: 8px;
 }
 
-/* our strategy */
+
  .visually-hidden {
      position: absolute;
      width: 1px;
