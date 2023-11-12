@@ -206,25 +206,35 @@ button {
 
 /* /mobile menu */
 
-/* linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), */
+
 /* hero section mobile slyles */
 .hero-section {
-    background-image: 
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
         url(../images/background-picture/hero-section-background-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 72px 0;
+    
     background-color: #2E2F42;
-    max-width: 320px;
     background-position: center;
-    margin: 0 auto;
+    
+    width: 320px;
+}
+.section-hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 0;
+
 }
 @media screen and (min-resolution: 192dpi) {
     .hero-section {
-        background-image:
+        background-image: linear-gradient(
+            to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
             url(../images/background-picture/hero-section-background-mobile@2x.jpg) ;
     }
     
@@ -238,13 +248,10 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 288px;
     height: 160px;
-    margin-left: auto;
-    margin-right: auto;
+    
     text-transform: capitalize;
-    padding-left: 60px;
-    padding-right: 60px;
+  
 
 }
 
@@ -274,13 +281,12 @@ button {
     background-color: #404BBF;
 }
 
-
 /* /hero section mobile slyles */
 @media screen and (min-width: 320px) {
     .container {
         margin-left: auto;
         margin-right: auto;
-        width: 320px;
+        width: 288px;
 
     }
 }
@@ -393,14 +399,29 @@ button {
         display: flex;
         gap: 40px; 
     }
-}
 
-/* /header tablet styles */
+    /* /header tablet styles */
 
 
 /* hero section tablet styles */
-
+    .hero-section {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/background-picture/hero-section-background-tablet.png);
+    }
+@media screen and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/background-picture/hero-section-background-mobile@2x.jpg);
+    }
+}
 /* /hero section tablet styles */
+}
+
+
 
 
 @media screen and (min-width: 1158px) {
