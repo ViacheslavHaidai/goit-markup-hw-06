@@ -223,14 +223,12 @@ button {
     background-position: center;
     margin: 0 auto;
     width: 320px;
-}
-.section-hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 72px 0;
 
 }
+.hero-section .container {
+    padding: 72px 0;
+}
+
 @media screen and (min-resolution: 192dpi) {
     .hero-section {
         background-image: linear-gradient(
@@ -333,6 +331,108 @@ button {
   
 }
 /* /our strategy mobile styles */
+
+/* our team mobile styles */
+.our-team-container-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+    
+    
+}
+.team-card .social-links-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.social-links-list .icon {
+    fill: #f4f4fd;
+}
+
+.social-links-list .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.team-container {
+    
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-card {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+    
+}
+.our-team {
+    background-color:#F4F4FD;
+    padding: 96px 0;
+}
+
+
+.our-team-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    text-align: center;
+   
+}
+.our-team-names {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    
+   
+}
+.our-work-team {
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    
+  
+}
+.social-links {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    align-items: center;
+    border-radius: 50%;
+    gap: 24px;
+}
+
+.social-links-list .link:hover,
+.social-links-list .link:focus {
+    background-color: #404bbf; 
+}
+
+
+/* /our team mobile styles */
 
 
 @media screen and (min-width: 320px) {
@@ -512,6 +612,7 @@ button {
 @media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
+        
        
 /* header descktop styles */
     }
@@ -524,9 +625,13 @@ button {
     }
     .nav-list-link:first-child .navigation-link::after {
         bottom: 6px;
-    }
+    }   
+/* /header descktop styles */
+
+/* hero descktop styles */
+  
     .hero-section {
-        background-image: linear-gradient(
+            background-image: linear-gradient(
             to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/background-picture/hero-section-background-descktop.jpg);
@@ -536,6 +641,7 @@ button {
             background-position: center;
             margin: 0 auto;
             width: 1440px;
+            
     }
 @media screen and (min-resolution: 192dpi) {
     .hero-section {
@@ -545,7 +651,8 @@ button {
             rgba(46, 47, 66, 0.7)), url(../images/background-picture/hero-section-background-descktop@2x.jpg);
     }
 }
-/* /header descktop styles */
+/* hero descktop styles */
+
 
 /* our strategy desktop styles */
 .strategy-list {
