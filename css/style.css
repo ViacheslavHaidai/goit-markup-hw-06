@@ -285,7 +285,7 @@ button {
 
 
 @media screen and (max-width: 1158px) {
-    .icon {
+    .icon-strategy {
         display: none;
     }
 }
@@ -665,7 +665,7 @@ button {
 .our-strategy-text {
     font-weight: 400;
 }
-.our-strategy-list >.icon {
+.our-strategy-list .icon-strategy {
     display: flex;
     justify-content: center;
     align-items: center;
