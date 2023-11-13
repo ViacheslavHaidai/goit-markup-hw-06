@@ -606,6 +606,17 @@ button {
 
 /* /our stratedy tablet styles */
 
+
+/* our team tablet styles */
+.our-team-container-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+}
+
+/* /our team tablet styles */
+
 }
 
 
@@ -629,7 +640,7 @@ button {
 /* /header descktop styles */
 
 /* hero descktop styles */
-  
+   
     .hero-section {
             background-image: linear-gradient(
             to bottom,
@@ -685,4 +696,10 @@ button {
     margin-bottom: 8px;
 }
 /* /our strategy desktop styles */
+
+/* our team descktop styles */
+.our-team-container-list {
+    flex-wrap: nowrap;
+}
+/* /our team descktop styles */
 }
