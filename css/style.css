@@ -1183,7 +1183,9 @@ button {
 /* /header descktop styles */
 
 /* hero descktop styles */
-   
+   .hero-section .container {
+    padding: 188px 0;
+   }
     .hero-section {
             background-image: linear-gradient(
             to bottom,
@@ -1210,6 +1212,10 @@ button {
 
 
 /* our strategy desktop styles */
+.section-strategy {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .strategy-list {
     flex-wrap: nowrap;
     width: 1126px;
@@ -1242,6 +1248,9 @@ button {
 /* /our strategy desktop styles */
 
 /* our team descktop styles */
+.our-team {
+    padding: 120px 0;
+}
 
 .our-team-container-list {
     flex-direction: row;
@@ -1299,7 +1308,9 @@ button {
 /* /our portfolio descktop styles  */
 
 /* footer descktop styles */
-
+.footer {
+    padding: 100px 0;
+}
 .logo-social-link-wrapper {
     display: flex;
     align-items: baseline;
