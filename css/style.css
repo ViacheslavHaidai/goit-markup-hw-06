@@ -163,7 +163,7 @@ button {
     .mobile-menu-social-links {
         display: flex;
         gap: 40px;
-        width: calc((320px - 120px) / 4);
+        
     
     }
     .mobile-icon-link {
